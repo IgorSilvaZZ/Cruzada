@@ -1,15 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    flex-direction: column;
+    background-image: url('../imagens/tranformação-digital-1.jpg');
+    height: 190vh;
 }
-.cruzada-container{
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff1bd;
+}
+
+.cruzada-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,103 +26,146 @@
     width: 90%;
     /* border: 2px solid; */
 }
-.cruzada-item{
+
+.cruzada-item {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 95%;
     height: 95%;
 }
-.cruzada-item table{
+
+.cruzada-item table {
     /* width: 100%;
     height: 100%; */
     text-align: center;
 }
-.cruzada-item table  tr td{
+
+.cruzada-item table tr td {
     font-weight: 800;
     font-size: 20px;
     border: 1px solid black;
     padding: 5px;
 }
-#blank{
+
+#blank {
     border: none;
 }
-.palavra1{
-    background: red;
-    color: red; 
+
+.palavra1 {
+    background: #ffeba2;
+    color: #ffeba2;
 }
-.palavra2{
-    background: blue;
-    color: blue;
+
+.palavra2 {
+    background: rgb(211, 148, 206);
+    color: rgb(211, 148, 206);
 }
-.palavra3{
-    background: orangered;
-    color: orangered;
+
+.palavra3 {
+    background: rgb(108, 164, 196);
+    color: rgb(108, 164, 196);
 }
-.palavra4{
+
+.palavra4 {
     background: #9932CC;
     color: #9932CC;
 }
-.palavra5{
+
+.palavra5 {
     background: #BA55D3;
     color: #BA55D3;
 }
-.palavra5{
+
+.palavra5 {
     background: #DA70D6;
     color: #DA70D6;
 }
-.palavra6{
-    background: #FF6347;
-    color: #FF6347;
+
+.palavra6 {
+    background: #f1ea87;
+    color: #f1ea87;
 }
-.palavra7{
+
+.palavra7 {
     background: #DB7093;
     color: #DB7093;
 }
-.palavra8{
+
+.palavra8 {
     background: #008B8B;
     color: #008B8B;
 }
-.palavra9{
+
+.palavra9 {
     background: #4682B4;
     color: #4682B4;
 }
-.palavra10{
-    background: #808080;
-    color: #808080;
+
+.palavra10 {
+    background: #9cb7ff;
+    color: #9cb7ff;
 }
-.palavra11{
+
+.palavra11 {
     background: #98FB98;
     color: #98FB98;
 }
-.palavra12{
+
+.palavra12 {
     background: #BC8F8F;
     color: #BC8F8F;
 }
-.palavra13{
+
+.palavra13 {
     background: #FA8072;
     color: #FA8072;
 }
-.palavra14{
+
+.palavra14 {
     background: #B0E0E6;
     color: #B0E0E6;
 }
-.palavra15{
+
+.palavra15 {
     background: #D8BFD8;
     color: #D8BFD8;
 }
-.palavra16{
-    background: #FFDAB9;
-    color: #FFDAB9;
+
+.palavra16 {
+    background: #ebbc94;
+    color: #ebbc94;
 }
-.formulario{
+
+.formulario {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 30vh;
+    width: 100%;
+    background-color: rgb(183, 214, 241);
 }
-.formulario input{
+
+.formulario input {
+    outline: none;
     width: 200px;
     padding: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+.formulario button {
+    width: 5%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 1%;
+    background-color: #fff1bd;
+}
+
+#dica {
+    text-align: center;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
 }
